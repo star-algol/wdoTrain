@@ -17,7 +17,7 @@ jobs:
       - run:
           name: Run tests
           command: |
-            npm run test:selenoid
+            npm run test:chrome:headless
             test -d allure-previous && cp -r allure-previous/allure-report/history allure-results | echo "Previous report directory not found"
             npm run report:generate
             zip -r allure-report.zip allure-report
