@@ -6,7 +6,7 @@ module.exports = {
     logLevel: 'info',
     bail: 0,
     waitforTimeout: 10000,
-    connectionRetryTimeout: 15000,
+    connectionRetryTimeout: 25000,
     connectionRetryCount: 3,
 
     framework: 'mocha',
