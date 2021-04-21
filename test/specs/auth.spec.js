@@ -4,8 +4,8 @@ import ProfilePage from '../pageobjects/profile.page';
 describe('My Login application', () => {
     let credentials = [
         {
-            username: "fapecep930@ahhtee.com",
-            password: "qwerty123"
+            username: "admin@localcoding.us",
+            password: "Godspeed101"
         }
     ];
 

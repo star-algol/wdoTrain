@@ -4,8 +4,8 @@ import CoursesPage from '../pageobjects/courses.page';
 
 describe('Navigation', () => {
     let credentials = {
-        username: "phoebe.buffae@gmail.com",
-        password: "7896542"
+        username: "student@localcoding.us",
+        password: "student789"
     };
 
     beforeEach(() => {
