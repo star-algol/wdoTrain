@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
-      <change afterPath="$PROJECT_DIR$/.circleci/oldconf.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +186,8 @@
       <workItem from="1611706511845" duration="3338000" />
       <workItem from="1611787169007" duration="889000" />
       <workItem from="1611859759528" duration="196000" />
-      <workItem from="1611977710302" duration="2596000" />
+      <workItem from="1611977710302" duration="4708000" />
+      <workItem from="1618970720283" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
@@ -231,7 +231,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611859847871</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="config with selenoid command">
+      <created>1611980706254</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611980706254</updated>
+    </task>
+    <task id="LOCAL-00008" summary="config with selenoid command">
+      <created>1611980888717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611980888717</updated>
+    </task>
+    <task id="LOCAL-00009" summary="config without selenoid command">
+      <created>1611981897288</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611981897288</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,50 +274,8 @@
     <MESSAGE value="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration" />
     <MESSAGE value="refactor" />
     <MESSAGE value="selenoid config added" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenoid config added" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="63" y="39" width="853" height="544" key="CommitChangelistDialog2" timestamp="1611859847717">
-      <screen x="0" y="25" width="1440" height="806" />
-    </state>
-    <state x="-1377" y="114" width="853" height="544" key="CommitChangelistDialog2/-1440.100.1440.806/0.25.1920.1055@-1440.100.1440.806" timestamp="1611715794754" />
-    <state x="63" y="39" key="CommitChangelistDialog2/0.25.1440.806@0.25.1440.806" timestamp="1611859847717" />
-    <state width="1137" height="227" key="GridCell.Tab.0.bottom" timestamp="1611979077268">
-      <screen x="-1440" y="100" width="1440" height="807" />
-    </state>
-    <state width="1112" height="434" key="GridCell.Tab.0.bottom/-1440.100.1440.806/0.25.1920.1055@-1440.100.1440.806" timestamp="1611978496459" />
-    <state width="1408" height="205" key="GridCell.Tab.0.bottom/-1440.100.1440.806/0.25.1920.1055@0.25.1920.1055" timestamp="1611718721116" />
-    <state width="1137" height="227" key="GridCell.Tab.0.bottom/-1440.100.1440.807/0.25.1920.1055@-1440.100.1440.807" timestamp="1611979077268" />
-    <state width="1137" height="227" key="GridCell.Tab.0.center" timestamp="1611979077268">
-      <screen x="-1440" y="100" width="1440" height="807" />
-    </state>
-    <state width="1112" height="434" key="GridCell.Tab.0.center/-1440.100.1440.806/0.25.1920.1055@-1440.100.1440.806" timestamp="1611978496457" />
-    <state width="1408" height="205" key="GridCell.Tab.0.center/-1440.100.1440.806/0.25.1920.1055@0.25.1920.1055" timestamp="1611718721115" />
-    <state width="1137" height="227" key="GridCell.Tab.0.center/-1440.100.1440.807/0.25.1920.1055@-1440.100.1440.807" timestamp="1611979077268" />
-    <state width="1137" height="227" key="GridCell.Tab.0.left" timestamp="1611979077267">
-      <screen x="-1440" y="100" width="1440" height="807" />
-    </state>
-    <state width="1112" height="434" key="GridCell.Tab.0.left/-1440.100.1440.806/0.25.1920.1055@-1440.100.1440.806" timestamp="1611978496456" />
-    <state width="1408" height="205" key="GridCell.Tab.0.left/-1440.100.1440.806/0.25.1920.1055@0.25.1920.1055" timestamp="1611718721115" />
-    <state width="1137" height="227" key="GridCell.Tab.0.left/-1440.100.1440.807/0.25.1920.1055@-1440.100.1440.807" timestamp="1611979077267" />
-    <state width="1137" height="227" key="GridCell.Tab.0.right" timestamp="1611979077268">
-      <screen x="-1440" y="100" width="1440" height="807" />
-    </state>
-    <state width="1112" height="434" key="GridCell.Tab.0.right/-1440.100.1440.806/0.25.1920.1055@-1440.100.1440.806" timestamp="1611978496458" />
-    <state width="1408" height="205" key="GridCell.Tab.0.right/-1440.100.1440.806/0.25.1920.1055@0.25.1920.1055" timestamp="1611718721115" />
-    <state width="1137" height="227" key="GridCell.Tab.0.right/-1440.100.1440.807/0.25.1920.1055@-1440.100.1440.807" timestamp="1611979077268" />
-    <state x="318" y="165" key="Vcs.Push.Dialog.v2" timestamp="1611859869656">
-      <screen x="0" y="25" width="1440" height="806" />
-    </state>
-    <state x="-1122" y="240" key="Vcs.Push.Dialog.v2/-1440.100.1440.806/0.25.1920.1055@-1440.100.1440.806" timestamp="1611715799009" />
-    <state x="318" y="165" key="Vcs.Push.Dialog.v2/0.25.1440.806@0.25.1440.806" timestamp="1611859869656" />
-    <state x="-920" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611033519947">
-      <screen x="-1440" y="100" width="1440" height="806" />
-    </state>
-    <state x="-920" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.100.1440.806/0.25.1920.1055@-1440.100.1440.806" timestamp="1611033519947" />
-    <state x="506" y="321" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611859859299">
-      <screen x="0" y="25" width="1440" height="806" />
-    </state>
-    <state x="506" y="321" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.806@0.25.1440.806" timestamp="1611859859299" />
+    <MESSAGE value="config with selenoid command" />
+    <MESSAGE value="config without selenoid command" />
+    <option name="LAST_COMMIT_MESSAGE" value="config without selenoid command" />
   </component>
 </project>

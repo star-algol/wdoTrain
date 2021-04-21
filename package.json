@@ -27,7 +27,7 @@
     "@wdio/spec-reporter": "^6.10.6",
     "@wdio/sync": "^6.10.10",
     "allure-commandline": "^2.13.8",
-    "chromedriver": "^87.0.4",
+    "chromedriver": "^90.0.0",
     "geckodriver": "^1.21.1",
     "wdio-chromedriver-service": "^6.0.4",
     "wdio-geckodriver-service": "^1.1.1"
