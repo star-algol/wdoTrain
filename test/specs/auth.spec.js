@@ -11,6 +11,7 @@ describe('My Login application', () => {
 
     beforeEach(() => {
         LoginPage.open();
+        LoginPage.clickLogin();
     });
 
     for (const iteration of credentials) {

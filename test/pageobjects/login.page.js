@@ -7,6 +7,7 @@ class LoginPage extends Page {
     /**
      * define selectors using getter methods
      */
+    get loginLink () { return $('//a[@data-qa ="login"]') }
     get inputUsername () { return $('#normal_login_email') }
     get inputPassword () { return $('#normal_login_password') }
     get btnSubmit () { return $('button[type="submit"]') }
@@ -17,6 +18,9 @@ class LoginPage extends Page {
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
+    clickLogin () {
+        this.loginLink.click();
+    }
 
     setUsername (username) {
         this.inputUsername.setValue(username);

@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/auth.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/auth.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/navigation.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/navigation.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/login.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/login.page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +187,7 @@
       <workItem from="1611859759528" duration="196000" />
       <workItem from="1611977710302" duration="4708000" />
       <workItem from="1618970720283" duration="516000" />
-      <workItem from="1618971643840" duration="612000" />
+      <workItem from="1618971643840" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
       <created>1610394593595</created>
